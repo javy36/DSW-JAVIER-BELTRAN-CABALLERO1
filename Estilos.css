@@ -45,3 +45,26 @@ a
     left:0px;
     border:solid;
 }
+  label
+{
+display: block;
+}
+#btnsubmit
+{
+    border: none;
+    background-color: #09c5ef;
+    color: #fff ;
+    padding: 4px;
+    margin: 20px;
+    cursor: pointer;
+}
+#calificacion::-webkit-slider-thumb
+{
+    
+    -webkit-appearance: none;
+    background-color: #09c5ef ;
+    border-radius: 10px;
+    height: 15px;
+    width: 10px;
+
+}
